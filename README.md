@@ -4,8 +4,8 @@ Protein-identity tracker (Pi-tracker/π-tracker) is a framework to trace the sou
 - [Introduction](#Introduction)
 - [Installation](#Installation)
 - [Quick tutorial](#Quick-tutorial)
-- [Input files](#Inputs)
-- [Output files](#Outputs)
+- [Input files](#Input-files)
+- [Output files](#Output-files)
 - [Contact](#Contact)
 - [Notes](#Notes)
 ## Introduction
