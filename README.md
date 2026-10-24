@@ -10,6 +10,13 @@ Protein-identity tracker (Pi-tracker/π-tracker) is a framework to trace the sou
 - [Notes](#Notes)
 ## Introduction
 Investigations of plasma proteins are emerging as a promising strategy for identifying biomarkers and druggable targets. However, the challenges remain in tracking the source and molecular target of plasma proteins. Unravelling their tissue/cell-specific manifestations is critical for understanding of disease etiology and guiding therapeutic development. Pi-tracker is a framework to trace the source and target characteristics of plasma proteins, which utilized MR and PWAS by inferring the causal relationships between plasma proteins and other endophenotypes. It is developed and maintained by Yahui Wang at Zhuan Liao's Group.
+
+In this tool, we
+
+- integrate MR and PWAS tools to trace the source and target characteristics of plasma proteins
+- integrate eQTL_to_TWAS package to train eQTL weight models
+- enable parallel computation to train eQTL weight models / perform PWAS and colocalization analysis simultaneously for multiple genes.
+
 ## Installation
 We recommend use mamba for installation:
 ```
