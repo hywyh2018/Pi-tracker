@@ -14,8 +14,9 @@ Investigations of plasma proteins are emerging as a promising strategy for ident
 In this tool, we
 
 - integrate MR and PWAS tools to trace the source and target characteristics of plasma proteins
-- integrate eQTL_to_TWAS package to train eQTL weight models
+- ultilize eQTL_to_TWAS package to train eQTL weight models
 - enable parallel computation to train eQTL weight models / perform PWAS and colocalization analysis simultaneously for multiple genes.
+- calculate an omnibus test P value using the aggregated Cauchy association test (ACAT-O)
 
 ## Installation
 We recommend use mamba for installation:
