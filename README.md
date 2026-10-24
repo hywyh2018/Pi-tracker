@@ -17,6 +17,7 @@ In this tool, we
 - ultilize eQTL_to_TWAS package to train eQTL weight models
 - enable parallel computation to train eQTL weight models / perform PWAS and colocalization analysis simultaneously for multiple genes.
 - calculate an omnibus test P value using the aggregated Cauchy association test (ACAT-O)
+- visualize the contribution of each source to plasma proteins across tissues/cell types
 
 ## Installation
 We recommend use mamba for installation:
